@@ -43,7 +43,7 @@ And this is the code in the `posts#edit` form:
 
 <%= form_tag post_path(@post), method: "put" do %>
   <label>Post title:</label><br>
-  <%= text_field_tag :title %><br>
+  <!-- <%= text_field_tag :title %><br> -->
 
   <label>Post Description</label><br>
   <%= text_area_tag :description %><br>
